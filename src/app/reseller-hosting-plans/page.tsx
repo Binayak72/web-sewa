@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Pricing from "@/components/Pricing";
 
 export default function ResellerHostingPlans() {
   return (
@@ -20,116 +21,7 @@ export default function ResellerHostingPlans() {
       </section>
 
       {/* Pricing Cards Section */}
-      <section className="py-section-gap bg-surface relative">
-        <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Starter */}
-            <div className="flex flex-col p-10 rounded-2xl bg-surface border border-outline-variant shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <h3 className="text-on-surface text-xl font-bold mb-2">Starter</h3>
-              <p className="text-on-surface-variant text-sm mb-8">Perfect for small portfolios.</p>
-              <div className="flex items-baseline gap-1 mb-10">
-                <span className="text-on-surface text-4xl font-black">$24.99</span>
-                <span className="text-on-surface-variant font-medium">/mo</span>
-              </div>
-              <ul className="space-y-4 mb-10 flex-grow">
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  50GB NVMe Storage
-                </li>
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  10 cPanel Accounts
-                </li>
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  Unmetered Bandwidth
-                </li>
-              </ul>
-              <button className="w-full py-4 rounded-xl border-2 border-outline-variant font-bold text-on-surface hover:bg-surface-container transition-colors">Select Plan</button>
-            </div>
-            
-            {/* Professional (Best Value) */}
-            <div className="relative flex flex-col p-10 rounded-2xl bg-surface border-2 border-secondary shadow-2xl shadow-secondary/10 ring-4 ring-secondary/5 transition-all duration-300 hover:-translate-y-2">
-              <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-secondary text-on-secondary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Best Value</div>
-              <h3 className="text-on-surface text-xl font-bold mb-2">Professional</h3>
-              <p className="text-on-surface-variant text-sm mb-8">Optimized for growing agencies.</p>
-              <div className="flex items-baseline gap-1 mb-10">
-                <span className="text-on-surface text-5xl font-black">$49.99</span>
-                <span className="text-on-surface-variant font-medium">/mo</span>
-              </div>
-              <ul className="space-y-4 mb-10 flex-grow">
-                <li className="flex items-center gap-3 text-on-surface font-bold text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>verified</span>
-                  150GB NVMe Storage
-                </li>
-                <li className="flex items-center gap-3 text-on-surface font-bold text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>verified</span>
-                  30 cPanel Accounts
-                </li>
-                <li className="flex items-center gap-3 text-on-surface font-bold text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>verified</span>
-                  Unmetered Bandwidth
-                </li>
-                <li className="flex items-center gap-3 text-on-surface font-bold text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>verified</span>
-                  Free WHMCS License
-                </li>
-              </ul>
-              <button className="w-full py-4 rounded-xl bg-secondary text-on-secondary font-bold hover:shadow-lg shadow-secondary/20 transition-all">Get Started Now</button>
-            </div>
-            
-            {/* Business */}
-            <div className="flex flex-col p-10 rounded-2xl bg-surface border border-outline-variant shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <h3 className="text-on-surface text-xl font-bold mb-2">Business</h3>
-              <p className="text-on-surface-variant text-sm mb-8">For high-traffic operations.</p>
-              <div className="flex items-baseline gap-1 mb-10">
-                <span className="text-on-surface text-4xl font-black">$89.99</span>
-                <span className="text-on-surface-variant font-medium">/mo</span>
-              </div>
-              <ul className="space-y-4 mb-10 flex-grow">
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  300GB NVMe Storage
-                </li>
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  Unlimited Accounts
-                </li>
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  Unmetered Bandwidth
-                </li>
-              </ul>
-              <button className="w-full py-4 rounded-xl border-2 border-outline-variant font-bold text-on-surface hover:bg-surface-container transition-colors">Select Plan</button>
-            </div>
-            
-            {/* Enterprise */}
-            <div className="flex flex-col p-10 rounded-2xl bg-surface border border-outline-variant shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
-              <h3 className="text-on-surface text-xl font-bold mb-2">Enterprise</h3>
-              <p className="text-on-surface-variant text-sm mb-8">Maximum scale &amp; power.</p>
-              <div className="flex items-baseline gap-1 mb-10">
-                <span className="text-on-surface text-4xl font-black">$149.99</span>
-                <span className="text-on-surface-variant font-medium">/mo</span>
-              </div>
-              <ul className="space-y-4 mb-10 flex-grow">
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  500GB NVMe Storage
-                </li>
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  Unlimited Accounts
-                </li>
-                <li className="flex items-center gap-3 text-on-surface text-sm">
-                  <span className="material-symbols-outlined text-secondary" style={{fontSize: "20px"}}>check_circle</span>
-                  Dedicated Support Line
-                </li>
-              </ul>
-              <button className="w-full py-4 rounded-xl border-2 border-outline-variant font-bold text-on-surface hover:bg-surface-container transition-colors">Select Plan</button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Pricing />
 
       {/* Comparison Table Section */}
       <section className="py-section-gap bg-surface-container-low">

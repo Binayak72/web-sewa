@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
           </span>
           <h1 className="text-on-background text-4xl md:text-6xl font-extrabold tracking-tight mb-6">Privacy Policy</h1>
           <p className="text-on-surface-variant text-lg md:text-xl max-w-2xl leading-relaxed">
-            At Web Sewa, we prioritize the protection of your digital footprint. This document outlines our rigorous standards for data privacy, security, and your rights as a professional reseller.
+            At Web Seva, we prioritize the protection of your digital footprint. This document outlines our rigorous standards for data privacy, security, and your rights as a professional reseller.
           </p>
         </div>
       </section>
@@ -151,9 +151,9 @@ export default function PrivacyPolicy() {
                   <span className="material-symbols-outlined text-secondary" style={{fontVariationSettings: "'FILL' 1"}}>insights</span>
                   2. Data Usage
                 </h2>
-                <p>Your information is used strictly to maintain the excellence of Web Sewa services. We process data for authentication, infrastructure management, billing accuracy, and proactive technical support. We do not engage in the sale of user data to third-party advertisers.</p>
+                <p>Your information is used strictly to maintain the excellence of Web Seva services. We process data for authentication, infrastructure management, billing accuracy, and proactive technical support. We do not engage in the sale of user data to third-party advertisers.</p>
                 <div className="bg-primary/5 border-l-4 border-secondary p-8 rounded-r-2xl mb-8">
-                  <p className="italic text-on-surface-variant text-lg mb-0">"Our commitment is to leverage data only for the optimization of your hosting environment and the security of the global Web Sewa network."</p>
+                  <p className="italic text-on-surface-variant text-lg mb-0">"Our commitment is to leverage data only for the optimization of your hosting environment and the security of the global Web Seva network."</p>
                 </div>
               </section>
 
@@ -162,7 +162,7 @@ export default function PrivacyPolicy() {
                   <span className="material-symbols-outlined text-secondary" style={{fontVariationSettings: "'FILL' 1"}}>lock_person</span>
                   3. Security Infrastructure
                 </h2>
-                <p>Web Sewa employs enterprise-grade security measures to safeguard all stored information. Our infrastructure is designed to prevent unauthorized access, maintain data integrity, and ensure continuous availability.</p>
+                <p>Web Seva employs enterprise-grade security measures to safeguard all stored information. Our infrastructure is designed to prevent unauthorized access, maintain data integrity, and ensure continuous availability.</p>
                 <div className="space-y-6">
                   <div className="flex gap-6 p-6 rounded-2xl bg-surface-container-low border border-outline-variant hover:bg-surface-container transition-colors">
                     <div className="w-12 h-12 bg-secondary-container/30 rounded-xl flex items-center justify-center text-secondary shrink-0">
@@ -190,7 +190,7 @@ export default function PrivacyPolicy() {
                   <span className="material-symbols-outlined text-secondary" style={{fontVariationSettings: "'FILL' 1"}}>gavel</span>
                   4. User Rights
                 </h2>
-                <p>As a Web Sewa client, you retain full sovereignty over your information. We comply with global privacy frameworks including GDPR and CCPA, providing you with the tools to manage your data.</p>
+                <p>As a Web Seva client, you retain full sovereignty over your information. We comply with global privacy frameworks including GDPR and CCPA, providing you with the tools to manage your data.</p>
                 <div className="space-y-4 text-on-surface-variant">
                   <div className="flex items-start gap-4">
                     <span className="material-symbols-outlined text-secondary mt-1">check_circle</span>

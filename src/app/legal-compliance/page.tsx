@@ -89,11 +89,11 @@ export default function LegalCompliance() {
               <div className="max-w-none">
                 <h3 className="text-on-background text-2xl font-bold mb-6">1. Acceptance of Terms</h3>
                 <p>
-                  By accessing or using the Web Sewa infrastructure, reseller platform, or hosting services, you agree to be bound by these Terms of Service. If you are entering into this agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these terms. Web Sewa provides high-performance reseller hosting solutions, and your use of these services signifies your acknowledgment of the technical and legal responsibilities involved.
+                  By accessing or using the Web Seva infrastructure, reseller platform, or hosting services, you agree to be bound by these Terms of Service. If you are entering into this agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity to these terms. Web Seva provides high-performance reseller hosting solutions, and your use of these services signifies your acknowledgment of the technical and legal responsibilities involved.
                 </p>
                 <h3 className="text-on-background text-2xl font-bold mt-16 mb-6">2. User Responsibilities</h3>
                 <p>
-                  As a reseller of Web Sewa services, you maintain primary responsibility for the end-users you support. Your obligations include:
+                  As a reseller of Web Seva services, you maintain primary responsibility for the end-users you support. Your obligations include:
                 </p>
                 <ul className="text-on-surface-variant space-y-3">
                   <li>Providing first-tier technical support to your own clients directly.</li>
@@ -104,11 +104,11 @@ export default function LegalCompliance() {
                 </ul>
                 <h3 className="text-on-background text-2xl font-bold mt-16 mb-6">3. Payment Terms</h3>
                 <p>
-                  All services are billed on a recurring basis (monthly or annually) as selected during registration. Fees are non-refundable except as expressly stated in our Refund Policy. Web Sewa reserves the right to suspend accounts that are more than 48 hours past due. Resellers are responsible for collecting payments from their clients; client non-payment does not exempt the Reseller from their financial obligations to Web Sewa.
+                  All services are billed on a recurring basis (monthly or annually) as selected during registration. Fees are non-refundable except as expressly stated in our Refund Policy. Web Seva reserves the right to suspend accounts that are more than 48 hours past due. Resellers are responsible for collecting payments from their clients; client non-payment does not exempt the Reseller from their financial obligations to Web Seva.
                 </p>
                 <h3 className="text-on-background text-2xl font-bold mt-16 mb-6">4. Refund Policy</h3>
                 <p>
-                  We offer a 30-day "No-Questions-Asked" satisfaction guarantee for new hosting accounts. This refund applies only to hosting fees and specifically excludes domain registrations, SSL certificates, and custom professional services. Refunds requested after the 30-day window will be handled at the sole discretion of the Web Sewa billing department and may be issued as service credits.
+                  We offer a 30-day "No-Questions-Asked" satisfaction guarantee for new hosting accounts. This refund applies only to hosting fees and specifically excludes domain registrations, SSL certificates, and custom professional services. Refunds requested after the 30-day window will be handled at the sole discretion of the Web Seva billing department and may be issued as service credits.
                 </p>
               </div>
             </section>

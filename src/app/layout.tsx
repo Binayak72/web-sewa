@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VelocityEngine | Engineering for Speed",
+  title: "WebSeva | Reseller Hosting for Your Empire",
   description: "Professional Reseller Hosting for Your Empire",
 };
 

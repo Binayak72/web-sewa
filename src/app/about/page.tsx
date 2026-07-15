@@ -20,7 +20,7 @@ export default function About() {
               Powering the Next <span className="bg-gradient-to-br from-on-background to-secondary text-transparent bg-clip-text">Generation</span> of Reseller Giants
             </h1>
             <p className="text-on-surface-variant text-lg md:text-xl max-w-2xl mb-12 leading-relaxed">
-              Web Sewa is more than a provider. We are the invisible backbone for over 2,000 hosting entrepreneurs, delivering high-performance infrastructure and elite white-label tools to build your empire.
+              Web Seva is more than a provider. We are the invisible backbone for over 2,000 hosting entrepreneurs, delivering high-performance infrastructure and elite white-label tools to build your empire.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-primary text-on-primary font-extrabold text-body-md px-10 py-4 rounded-xl hover:scale-105 transition-transform shadow-xl shadow-primary/10 flex items-center justify-center gap-2">
@@ -170,7 +170,7 @@ export default function About() {
       <section className="py-section-gap bg-surface relative overflow-hidden">
         <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop text-center relative z-10">
           <h2 className="text-on-background text-4xl md:text-6xl font-extrabold tracking-tight mb-8">Ready to Build Your Empire?</h2>
-          <p className="text-on-surface-variant text-xl max-w-2xl mx-auto mb-12">Join 2,000+ digital agencies and hosting startups who trust Web Sewa for their infrastructure needs.</p>
+          <p className="text-on-surface-variant text-xl max-w-2xl mx-auto mb-12">Join 2,000+ digital agencies and hosting startups who trust Web Seva for their infrastructure needs.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Link href="/reseller-hosting-plans" className="bg-secondary text-on-secondary font-black text-body-lg px-12 py-5 rounded-2xl hover:scale-105 transition-all shadow-xl shadow-secondary/20">Get Started Now</Link>
             <Link href="/contact-legal" className="bg-surface-container-high text-on-surface font-extrabold text-body-lg px-12 py-5 rounded-2xl hover:bg-surface-container-highest transition-all border border-outline-variant">Schedule a Demo</Link>

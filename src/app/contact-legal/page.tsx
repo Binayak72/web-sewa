@@ -149,7 +149,7 @@ export default function ContactLegalTeam() {
             </div>
             <div className="space-y-3">
               <h5 className="text-secondary font-extrabold text-label-md">Anti-Abuse Policy</h5>
-              <p className="text-on-surface-variant leading-relaxed">Web Sewa maintains a zero-tolerance policy for illegal content and activities, actively collaborating with security researchers.</p>
+              <p className="text-on-surface-variant leading-relaxed">Web Seva maintains a zero-tolerance policy for illegal content and activities, actively collaborating with security researchers.</p>
             </div>
             <div className="space-y-3">
               <h5 className="text-secondary font-extrabold text-label-md">Encryption Standards</h5>

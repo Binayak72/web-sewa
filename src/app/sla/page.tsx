@@ -16,7 +16,7 @@ export default function SLA() {
             Service Level <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-tertiary">Agreement</span>
           </h1>
           <p className="text-on-surface-variant text-lg md:text-xl max-w-2xl mx-auto mb-16 leading-relaxed">
-            Web Sewa guarantees industry-leading uptime, rapid support responses, and hardware reliability for professional reseller hosting environments.
+            Web Seva guarantees industry-leading uptime, rapid support responses, and hardware reliability for professional reseller hosting environments.
           </p>
 
           {/* 99.9% Metric - Styled as a Feature Card */}
